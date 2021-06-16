@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="style">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!--from here starts the main content--> <!--Decided to add everything into a container-->
+    <main>
+        <section class="bg">
+            <section class="container">
+                <header>
+                    <div class="logo">
+                        <img src="images/logo/logo.png" alt="dash-logo" >
+                    </div> 
+                    <div class="title">
+                        <h1>Want to be your own boss?</h1>
+                        <p>Start today and make up to $30/hr driving
+                    your own vehicle with Dash!</p>
+                    </div>
+                </header>  
+            </section>
+<!--The form container starts here-->
+        <section id="contactform"  class="contactform">
+            <h2>Apply Now</h2>
+            <h3>Enter your info below</h3>
+            <form class="enroll">
+                <div class="joinform">
+                    <label for="fname"></label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                    <label for="lname"></label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                    <label for="pnumber"></label><br>
+                    <input type="text" id="pnumber" name="pnumber" placeholder="Phone Number"><br>
+                    <label for="email"></label><br>
+                    <input type="text" id="email" name="email" placeholder="Email Adress"><br>
+                    <label class="agree">
+                        <input type="checkbox" name="agree"> I agree Dash terms
+                    </label>
+                    <br>
+                    <button class="button">DRIVE WITH US</button>
+                    <div class="pform">
+                        <p>Already applied? <a href="#">Check your application status here</a></p>
+                    </div>
+                </div>
+            </form> 
+<!--End of the first form-->
+        </section>
+        </section>
+<!--starts the second and last form-->
+        <section id="bottom" class="bottom">
+            <section id="bottomtext" class="bottomtext">
+                <h4>See how much you can earn with Dash.</h4>
+                <div class="pd"><p>how many hours do you want to drive with us this week?</p></div>
+                <form class="time">
+                    <label for="hours"></label>
+                    <input type="text" id="hours" placeholder="Hours" name="hours">
+                    <label for="city"></label>
+                    <input type="text" id="city" placeholder="City" name="city">
+                    <br>
+                </form>
+                    
+                    <button class="calculate">Calculate</button>
+                
+            </section>
+            <section id="socialmedia" class="media">
+                <img src="images/icons/facebook.svg" alt="Facebook logo" class="facebook">
+                <img src="images/icons/instagram.svg" alt="IGlogo" class="instagram">
+                <img src="images/icons/linkedin.svg" alt="Linkedin" class="linkedin">
+                <img src="images/icons/twitter.svg" alt="twitterlogo" class="twitter">
+         </section>
+    
+    </section>
+    </main>    
+</body>
+</html>
